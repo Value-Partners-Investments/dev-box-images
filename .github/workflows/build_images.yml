@@ -20,7 +20,7 @@ jobs:
 
     env:
       STORAGE_ACCOUNT: vpidevbox
-      SUBNET_ID: /subscriptions/356a3294-5314-4386-89ba-99f54bbde136/resourceGroups/VPI-Dev-DevCenter/providers/Microsoft.Network/virtualNetworks/VPI-VNET-DevCenter/subnets/VPI-VNET-DevCenter-Subnet
+      SUBNET_ID: /subscriptions/356a3294-5314-4386-89ba-99f54bbde136/resourceGroups/VPI-Dev-DevCenter/providers/Microsoft.Network/virtualNetworks/VPI-VNET-DevCenter/subnets/VPI-VNET-DevImages-Subnet
 
     steps:
       - uses: actions/checkout@v2
