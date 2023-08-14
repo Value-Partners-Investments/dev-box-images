@@ -25,7 +25,6 @@
 # - subscription: (string)
 #       Subscription ID (GUID) of the subscription to use. If not set, the builder will use the default subscription of
 #       the authenticated user of service principal
-version: 1.0.1
 replicaLocations:
   - eastus
 buildResourceGroup: VPI-Dev-DevCenter
